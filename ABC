@@ -1,0 +1,1156 @@
+{ EnmapPathError: The key "632721156469817344-317098359116529666" does not exist in the enmap "points"
+    at Map.[check] (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\enmap\src\index.js:945:31)
+    at Map.get (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\enmap\src\index.js:227:19)
+    at Object.exports.run (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\commands\points.js:8:69)
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\message.js:59:5)
+    at Client.emit (events.js:189:13)
+    at MessageCreateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+  name: 'EnmapPathError',
+  message:
+   'The key "632721156469817344-317098359116529666" does not exist in the enmap "points"' }
+{ EnmapPathError: The key "632721156469817344-317098359116529666" does not exist in the enmap "points"
+    at Map.[check] (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\enmap\src\index.js:945:31)
+    at Map.get (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\enmap\src\index.js:227:19)
+    at Object.exports.run (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\commands\points.js:8:69)
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\message.js:59:5)
+    at Client.emit (events.js:189:13)
+    at MessageCreateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+  name: 'EnmapPathError',
+  message:
+   'The key "632721156469817344-317098359116529666" does not exist in the enmap "points"' }
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: connection.play is not a function
+    at Object.exports.run (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\commands\play.js:18:39)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: connection.play is not a function
+    at Object.exports.run (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\commands\play.js:18:39)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'hasPermmisions' of undefined
+    at Object.exports.run (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\commands\roast.js:9:18)
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\message.js:59:5)
+    at Client.emit (events.js:189:13)
+    at MessageCreateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: Cannot read property 'hasPermmisions' of undefined
+    at Object.exports.run (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\commands\roast.js:9:18)
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\message.js:59:5)
+    at Client.emit (events.js:189:13)
+    at MessageCreateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: role.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleCreate.js:6:128)
+    at Client.emit (events.js:189:13)
+    at GuildRoleCreate.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleCreate.js:14:28)
+    at GuildRoleCreateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleCreate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: role.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleCreate.js:6:128)
+    at Client.emit (events.js:189:13)
+    at GuildRoleCreate.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleCreate.js:14:28)
+    at GuildRoleCreateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleCreate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: role.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleCreate.js:6:128)
+    at Client.emit (events.js:189:13)
+    at GuildRoleCreate.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleCreate.js:14:28)
+    at GuildRoleCreateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleCreate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: role.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleCreate.js:6:128)
+    at Client.emit (events.js:189:13)
+    at GuildRoleCreate.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleCreate.js:14:28)
+    at GuildRoleCreateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleCreate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+TypeError: oldRole.permissions.map is not a function
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\roleUpdate.js:6:245)
+    at Client.emit (events.js:189:13)
+    at GuildRoleUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\GuildRoleUpdate.js:18:16)
+    at GuildRoleUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\GuildRoleUpdate.js:7:36)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+ReferenceError: Discord is not defined
+    at Object.exports.run (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\commands\leaderboard.js:13:17)
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\message.js:59:5)
+    at Client.emit (events.js:189:13)
+    at MessageCreateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+ReferenceError: Discord is not defined
+    at Object.exports.run (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\commands\leaderboard.js:13:17)
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\message.js:59:5)
+    at Client.emit (events.js:189:13)
+    at MessageCreateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+ReferenceError: deleteCout is not defined
+    at Object.exports.run (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\commands\purge.js:3:44)
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\message.js:59:5)
+    at Client.emit (events.js:189:13)
+    at MessageCreateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+ReferenceError: deleteCout is not defined
+    at Object.exports.run (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\commands\purge.js:3:44)
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\message.js:59:5)
+    at Client.emit (events.js:189:13)
+    at MessageCreateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\ws\lib\websocket.js:789:20)
+Error: Message exceeds the max length and contains no split characters.
+    at Function.splitMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\util\Util.js:23:13)
+    at Promise (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RESTMethods.js:106:35)
+    at new Promise (<anonymous>)
+    at RESTMethods.sendMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RESTMethods.js:70:12)
+    at TextChannel.send (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\structures\interfaces\TextBasedChannel.js:180:37)
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\messageUpdate.js:10:25)
+    at Client.emit (events.js:189:13)
+    at MessageUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\MessageUpdate.js:13:16)
+    at MessageUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageUpdate.js:7:34)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+Error: Message exceeds the max length and contains no split characters.
+    at Function.splitMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\util\Util.js:23:13)
+    at Promise (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RESTMethods.js:106:35)
+    at new Promise (<anonymous>)
+    at RESTMethods.sendMessage (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RESTMethods.js:70:12)
+    at TextChannel.send (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\structures\interfaces\TextBasedChannel.js:180:37)
+    at module.exports (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\events\messageUpdate.js:10:25)
+    at Client.emit (events.js:189:13)
+    at MessageUpdateAction.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\actions\MessageUpdate.js:13:16)
+    at MessageUpdateHandler.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageUpdate.js:7:34)
+    at WebSocketPacketManager.handle (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/469864812940361728/messages/637954374177390613',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/469864812940361728/messages/637954374177390613',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638150442420928522',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638150442420928522',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638150693512806400',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638150693512806400',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638151145071837216',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638151145071837216',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Invalid Form Body
+content: Must be 2000 or fewer in length.
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message:
+   'Invalid Form Body\ncontent: Must be 2000 or fewer in length.',
+  path: '/api/v7/channels/451109815654023188/messages',
+  code: 50035,
+  method: 'POST' }
+{ DiscordAPIError: Invalid Form Body
+content: Must be 2000 or fewer in length.
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message:
+   'Invalid Form Body\ncontent: Must be 2000 or fewer in length.',
+  path: '/api/v7/channels/451109815654023188/messages',
+  code: 50035,
+  method: 'POST' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213628126035999',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213628126035999',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213708807405568',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213708807405568',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213746321391616',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213746321391616',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213790961238073',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213790961238073',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213833445605397',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213833445605397',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213864374403083',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213864374403083',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213987342876682',
+  code: 50013,
+  method: 'DELETE' }
+{ DiscordAPIError: Missing Permissions
+    at item.request.gen.end (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15)
+    at then (c:\Users\Sanchez1\Desktop\Dominick's Stuff\Coding Projects\Discord Bots\ABC Bot\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'DiscordAPIError',
+  message: 'Missing Permissions',
+  path:
+   '/api/v7/channels/451109815654023188/messages/638213987342876682',
+  code: 50013,
+  method: 'DELETE' }

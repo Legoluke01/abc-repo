@@ -25,31 +25,33 @@ module.exports = (client) => {
     return permlvl;
   };
 
-  /*
-  GUILD SETTINGS FUNCTION
 
-  This function merges the default settings (from config.defaultSettings) with any
-  guild override you might have for particular guild. If no overrides are present,
-  the default settings are used.
-
-  */
-  
-  // THIS IS HERE BECAUSE SOME PEOPLE DELETE ALL THE GUILD SETTINGS
-  // And then they're stuck because the default settings are also gone.
-  // So if you do that, you're resetting your defaults. Congrats.
   const defaultSettings = {
-    "prefix": "~",
+    "prefix": "abc ",
     "modLogChannel": "mod-log",
     "modRole": "Moderator",
     "adminRole": "Administrator",
     "systemNotice": "true",
     "welcomeChannel": "welcome",
     "welcomeMessage": "Say hello to {{user}}, everyone! We all need a warm welcome sometimes :D",
-    "welcomeEnabled": "false"
+    "welcomeEnabled": "false",
+    "welcomeRoleEnabled": "false",
+    "welcomeRole": "Member"
   };
 
-  // getSettings merges the client defaults with the guild settings. guild settings in
-  // enmap should only have *unique* overrides that are different from defaults.
+
+  // Dont judge my use of guide bot
+  // *judges thoroughly*
+  // Though the way guide bot is set up is far more advanced than my understanding
+  // aka I'm stupid and don't know what this does
+  // oohhhhhhhh
+  // so these are the client.functions()? makes some sense but ok
+  // how dare you
+  //this is just the functiuons
+  // yes and settings
+
+
+
   client.getSettings = (guild) => {
     client.settings.ensure("default", defaultSettings);
     if(!guild) return client.settings.get("default");

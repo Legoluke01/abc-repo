@@ -1,16 +1,18 @@
-// This event executes when a new member joins a server. Let's welcome them!
+const Canvas = require("canvas")
 
-module.exports = (client, member) => {
-  // Load the guild's settings
+module.exports = async (client, member) => {
   const settings = client.getSettings(member.guild);
 
-  // If welcome is off, don't proceed (don't welcome the user)
   if (settings.welcomeEnabled !== "true") return;
 
-  // Replace the placeholders in the welcome message with actual data
   const welcomeMessage = settings.welcomeMessage.replace("{{user}}", member.user.tag);
 
-  // Send the welcome message to the welcome channel
-  // There's a place for more configs here.
   member.guild.channels.find(c => c.name === settings.welcomeChannel).send(welcomeMessage).catch(console.error);
+
+  if (settings.welcomeRoleEnabled == "true") {
+
+    var role = member.guild.roles.find(role => role.name === settings.welcomeRole);
+    member.addRole(role.id);
+
+  } else return;
 };

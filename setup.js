@@ -5,14 +5,17 @@ const fs = require("fs");
 let baseConfig = fs.readFileSync("./config_base.txt", "utf8");
 
 const defaultSettings = {
-  "prefix": "~",
+  "prefix": "abc ",
   "modLogChannel": "mod-log",
   "modRole": "Moderator",
   "adminRole": "Administrator",
   "systemNotice": "true",
   "welcomeChannel": "welcome",
   "welcomeMessage": "Say hello to {{user}}, everyone! We all need a warm welcome sometimes :D",
-  "welcomeEnabled": "false"
+  "welcomeEnabled": "false",
+  "welcomeRoleEnabled": "false",
+  "welcomeRole": "Member",
+  "loggingEnabled": "false"
 };
 
 const settings = new Enmap({

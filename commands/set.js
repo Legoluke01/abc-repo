@@ -1,15 +1,4 @@
-// This command is to modify/edit guild configuration. Perm Level 3 for admins
-// and owners only. Used for changing prefixes and role names and such.
 
-// Note that there's no "checks" in this basic version - no config "types" like
-// Role, String, Int, etc... It's basic, to be extended with your deft hands!
-
-// Note the **destructuring** here. instead of `args` we have :
-// [action, key, ...value]
-// This gives us the equivalent of either:
-// const action = args[0]; const key = args[1]; const value = args.slice(2);
-// OR the same as:
-// const [action, key, ...value] = args;
 exports.run = async (client, message, [action, key, ...value], level) => { // eslint-disable-line no-unused-vars
 
   // Retrieve current guild settings (merged) and overrides only.
@@ -17,7 +6,7 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
   const defaults = client.settings.get("default");
   const overrides = client.settings.get(message.guild.id);
   if (!client.settings.has(message.guild.id)) client.settings.set(message.guild.id, {});
-  
+  // ok lets collab on... hm ban command?
   // Edit an existing key value
   if (action === "edit") {
     // User must specify a key.
