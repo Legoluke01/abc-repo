@@ -1,3 +1,8 @@
+
+const request = require("request")
+
+
+
 module.exports = (client) => {
 
   /*
@@ -25,7 +30,6 @@ module.exports = (client) => {
     return permlvl;
   };
 
-
   const defaultSettings = {
     "prefix": "abc ",
     "modLogChannel": "mod-log",
@@ -38,17 +42,6 @@ module.exports = (client) => {
     "welcomeRoleEnabled": "false",
     "welcomeRole": "Member"
   };
-
-
-  // Dont judge my use of guide bot
-  // *judges thoroughly*
-  // Though the way guide bot is set up is far more advanced than my understanding
-  // aka I'm stupid and don't know what this does
-  // oohhhhhhhh
-  // so these are the client.functions()? makes some sense but ok
-  // how dare you
-  //this is just the functiuons
-  // yes and settings
 
 
 

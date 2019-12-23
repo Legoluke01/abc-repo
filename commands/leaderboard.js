@@ -10,11 +10,13 @@ exports.run = async (client, message, args, level) => {
 
   const top10 = sorted.splice(0, 10);
 
+  const settings = client.getSettings(message.guild)
+
   const embed = new Discord.RichEmbed()
     .setTitle("Leaderboard")
     .setAuthor(client.user.username, client.user.avatarURL)
     .setDescription("Our top 10 points leaders!")
-    .setColor(0x00AE86);
+    .setColor(settings.embedColor);
   for(const data of top10) {
     embed.addField(client.users.get(data.user).tag, `${data.points} points (level ${data.level})`);
   }

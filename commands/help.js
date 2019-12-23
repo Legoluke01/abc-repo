@@ -5,9 +5,11 @@ command is also filtered by level, so if a user does not have access to
 a command, it is not shown to them. If a command name is given with the
 help command, its extended help is shown.
 */
+const Discord = require("discord.js")
 
 exports.run = (client, message, args, level) => {
   // If no specific command is called, show all filtered commands.
+  const settings = client.getSettings(message.guild)
   if (!args[0]) {
     // Filter all commands by which are available for the user's level, using the <Collection>.filter() method.
     const myCommands = message.guild ? client.commands.filter(cmd => client.levelCache[cmd.conf.permLevel] <= level) : client.commands.filter(cmd => client.levelCache[cmd.conf.permLevel] <= level &&  cmd.conf.guildOnly !== true);
@@ -29,13 +31,22 @@ exports.run = (client, message, args, level) => {
       output += `${message.settings.prefix}${c.help.name}${" ".repeat(longest - c.help.name.length)} :: ${c.help.description}\n`;
     });
     message.channel.send(output, {code: "asciidoc", split: { char: "\u200b" }});
+    const eembed = new Discord.RichEmbed()
+    .addField(".", ".");
   } else {
     // Show individual command's help.
     let command = args[0];
     if (client.commands.has(command)) {
       command = client.commands.get(command);
       if (level < client.levelCache[command.conf.permLevel]) return;
-      message.channel.send(`= ${command.help.name} = \n${command.help.description}\nusage:: ${command.help.usage}\naliases:: ${command.conf.aliases.join(", ")}\n= ${command.help.name} =`, {code:"asciidoc"});
+    const sCommandEmbed = new Discord.RichEmbed()
+    .setTitle(`Command: ${command.help.name.toProperCase()}`)
+    .setColor(settings.embedColor)
+    .setDescription(command.help.description)
+    .addField(`Usage:`, command.help.usage, true)
+    .addField(`Aliases:`, `\`\`\`${command.conf.aliases.join(", ")}\`\`\``, true);
+    message.channel.send(sCommandEmbed)
+
     }
   }
 };
@@ -43,7 +54,7 @@ exports.run = (client, message, args, level) => {
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ["h", "halp"],
+  aliases: ["h", "halp", "commands"],
   permLevel: "User"
 };
 

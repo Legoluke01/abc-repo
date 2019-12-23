@@ -17,8 +17,10 @@ exports.run = async (client, message, args, level) => {
 
     let dispatcher = await connection.playStream(ytdl(args[0], { filter: 'audioonly' }));
 
+    const settings = client.getSettings(message.guild)
+    
     const embed = new Discord.RichEmbed()
-    .setColor("GREEN")
+    .setColor(settings.embedColor)
     .setTitle("Queue Updated")
     .addField("Song Title", info.title)
     .addField("Video ID", info.video_id)

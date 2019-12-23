@@ -9,6 +9,7 @@ const defaultSettings = {
   "modLogChannel": "mod-log",
   "modRole": "Moderator",
   "adminRole": "Administrator",
+  "coOwnerRole": "Co-Owner",
   "systemNotice": "true",
   "welcomeChannel": "welcome",
   "welcomeMessage": "Say hello to {{user}}, everyone! We all need a warm welcome sometimes :D",

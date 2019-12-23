@@ -2,6 +2,7 @@ module.exports = async (client, oldMessage, newMessage) => {
     const settings = client.getSettings(oldMessage.guild);
 
     if (settings.loggingEnabled === "true") {
+        if (oldMessage.author.id === client.user.id) return;
 
 
         let timeVar = new Date(Date.now());
